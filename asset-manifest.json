@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.9e34022a.js",
+    "main.css": "/static/css/main.19e0483f.css",
+    "main.js": "/static/js/main.9fb1a86c.js",
+    "static/media/about.gif": "/static/media/about.a9a67bbbfd9c67158deb.gif",
+    "static/media/DNA.png": "/static/media/DNA.a3dbc29d40fd2fc2d67c.png",
+    "static/media/bansoi.png": "/static/media/bansoi.fbe2efd80120847ebdcc.png",
+    "static/media/LOSE.png": "/static/media/LOSE.f067d3fa5bab97b0ac24.png",
+    "static/media/Vinay_Kumar_Resume.pdf": "/static/media/Vinay_Kumar_Resume.fedc2413bba7d053eded.pdf",
+    "static/media/profile.jpg": "/static/media/profile.7c7de2bc3b5526963d7f.jpg",
     "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.9e34022a.js.map": "/static/js/main.9e34022a.js.map"
+    "main.19e0483f.css.map": "/static/css/main.19e0483f.css.map",
+    "main.9fb1a86c.js.map": "/static/js/main.9fb1a86c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.9e34022a.js"
+    "static/css/main.19e0483f.css",
+    "static/js/main.9fb1a86c.js"
   ]
 }
