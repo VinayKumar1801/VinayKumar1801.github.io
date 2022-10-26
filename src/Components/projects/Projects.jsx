@@ -125,7 +125,9 @@ const Projects = () => {
                 width: "100%",
                 margin: "auto",
               }}
-              data-aos="fade-right"
+              data-aos="fade-up"
+            data-aos-easing="ease-in"
+
             >
               <Box m={"auto"} w={{ md: "80%", sm: "90%", base: "90%" }}>
                 <Heading color={"var(--text-color)"} fontWeight={"700"} fontSize={"25px"}>
@@ -199,7 +201,9 @@ const Projects = () => {
                 width: "100%",
                 margin: "auto",
               }}
-              data-aos="fade-left"
+              data-aos="fade-up"
+              data-aos-easing="ease-in"
+  
             >
               <Box m={"auto"} w={"full"}>
                 <Image w={"100%"} m={"auto"} src={elem.img} alt="Dan Abramov" />

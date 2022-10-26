@@ -56,6 +56,7 @@ const Header = () => {
                       ? "nav__link active-link"
                       : "nav__link"
                   }
+                  
                 >
                   <i class="uil uil-estate nav__icon"></i>Home
                 </a>
@@ -128,7 +129,8 @@ const Header = () => {
               <li className="nav__item">
                 <a
                   href={CV} target="_blank"
-                ><button style={{backgroundColor:"rgb(233, 69, 96)", padding:"0.1rem 0.5rem", borderRadius:'.5rem'}}>
+                >
+                  <button style={{backgroundColor:"rgb(233, 69, 96)", padding:"0.1rem 0.5rem", borderRadius:'.5rem', color:"white"}}>
                   <i class="uil uil-scenery nav__icon"></i>Resume
 
                 </button>

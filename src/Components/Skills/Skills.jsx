@@ -17,7 +17,7 @@ const Skills = () => {
       <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">My Technical Level</span>
       <div className="tabs__container">
-        <Tabs variant="soft-rounded" colorScheme="green">
+        <Tabs variant="soft-rounded" colorScheme="pink">
           <TabList>
             <Flex w={"full"} direction={"row"} justify={"center"}>
               <Tab>All</Tab>

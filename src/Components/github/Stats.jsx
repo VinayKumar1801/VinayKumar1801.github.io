@@ -15,7 +15,7 @@ const Stats = () => {
           />
         </Link>
       </Box>
-      <Flex w={"full"} m="auto" mt={"7"} justify={"space-around"}>
+      <Flex w={"full"} m="auto" mt={"7"} justify={"space-around"} gap="2rem" flexDirection={{lg:"row",base:"column",sm:"column",md:"row"}}>
         <Link href="https://github.com/VinayKumar1801" isExternal>
           <Image
             align="center"
