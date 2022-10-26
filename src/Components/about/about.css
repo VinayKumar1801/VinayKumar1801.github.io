@@ -11,6 +11,11 @@
 
 }
 
+.section__title{
+    font-weight: 700;
+
+}
+
 /* .about__info{
     grid-template-columns: repeat(3,140px);
     gap: 0.5rem;

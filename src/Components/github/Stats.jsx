@@ -3,7 +3,7 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <Box  textAlign={"center"} w={"75%"} m={"auto"} mb={20}>
+    <Box  textAlign={"center"} w={"75%"} m={"auto"} >
       <h2 className="section__title">My Statistics</h2>
       <Box m="auto" mt={"7"}>
         <Link href="https://github.com/VinayKumar1801" isExternal>

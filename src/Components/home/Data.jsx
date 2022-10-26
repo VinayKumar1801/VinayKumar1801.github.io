@@ -1,9 +1,14 @@
+import { Flex } from '@chakra-ui/react'
 import React from 'react'
 
 const Data = () => {
   return (
     <div className="home__data">
+      <Flex alignItems={"center"}>
+
         <h1 className="home__title">Vinay Kumar
+      
+        </h1>
         <svg
                   width="36"
                   height="36"
@@ -53,7 +58,7 @@ const Data = () => {
                     fill="#EBA352"
                   ></path>
                 </svg>
-        </h1>
+        </Flex>
         <h3 className="home__subtitle" id='madebyvinay'>Full Stack Web Developer</h3>
         <p className="home__description" >I build things for the web, and I enjoy creating things that live on the internet. </p>
         <a href="#contact" className="button button--flex ">

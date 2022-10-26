@@ -9,10 +9,10 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --title-color:rgb(21, 52, 98);
+  --title-color-dark:rgb(233, 69, 96);
+  --text-color:rgb(233, 69, 96);
+  --body-color: #fff;
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -127,6 +127,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  color: rgb(233, 69, 96);
 }
 
 .section__title,
@@ -226,7 +227,7 @@ img {
   font-family: "montserrat";
   cursor: pointer;
   margin: 10px;
-  transition: 0.8s;
+  transition: 1.5s;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -238,10 +239,10 @@ img {
   color: #fff;
 }
 .btn1:hover,.btn2:hover{
-  color: #fff;
+  /* color: #fff; */
 }
 .btn3:hover,.btn4:hover{
-  color: #5E82F4;
+  color:  hsl(36, 56%, 84%,0.1);
 }
 .btn::before{
   content: "";
@@ -249,9 +250,9 @@ img {
   left: 0;
   width: 100%;
   height: 0%;
-  background: #5E82F4;
+  background:rgb(255, 209, 209);
   z-index: -1;
-  transition: 0.8s;
+  transition: 1.5s;
 }
 .btn1::before,.btn3::before{
   top: 0;

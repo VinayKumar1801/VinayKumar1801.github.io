@@ -86,5 +86,13 @@
    }
   }
   
+#skills{
 
+
+        background-image: linear-gradient(35deg,rgba(253, 158, 253, 0.5),rgba(136, 128, 248, 0.5)),url(../../assets/second.png) ;
+        background-size: cover;
+        width: 100%;
+    
+    
+}
   

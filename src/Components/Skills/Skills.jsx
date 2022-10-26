@@ -14,7 +14,7 @@ import All from "./All";
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">Skill</h2>
+      <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">My Technical Level</span>
       <div className="tabs__container">
         <Tabs variant="soft-rounded" colorScheme="green">
