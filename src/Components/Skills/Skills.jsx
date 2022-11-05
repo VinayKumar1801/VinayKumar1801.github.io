@@ -11,6 +11,7 @@ import {
 import Frontend from "./Frontend";
 import Backend from "./Backend";
 import All from "./All";
+import Tools from "./Tools";
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
@@ -23,6 +24,7 @@ const Skills = () => {
               <Tab>All</Tab>
               <Tab>Frontend</Tab>
               <Tab>Backend</Tab>
+              <Tab>Tools</Tab>
             </Flex>
           </TabList>
           <TabPanels>
@@ -34,6 +36,9 @@ const Skills = () => {
             </TabPanel>
             <TabPanel>
              <Backend/>
+            </TabPanel>
+            <TabPanel>
+             <Tools/>
             </TabPanel>
           </TabPanels>
         </Tabs>
