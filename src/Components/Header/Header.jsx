@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import VK from '../../assets/vk.png'
 import "./header.css";
-import CV from "../../assets/Vinay_Kumar_Resume.pdf";
+import CV from "../../assets/Vinay-Kumar-Resume.pdf";
 
 const Header = () => {
   const [Toggle, showMenu] = useState(false);
