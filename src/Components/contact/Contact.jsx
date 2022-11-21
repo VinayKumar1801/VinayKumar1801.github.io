@@ -1,27 +1,25 @@
-
 import "./contact.css";
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_92vdbtj",
-        "template_rez3zdg",
-        form.current,
-        "GZTB7LKvnhbV_vf1D"
-      )
-     e.target.reset()
+    emailjs.sendForm(
+      "service_92vdbtj",
+      "template_rez3zdg",
+      form.current,
+      "GZTB7LKvnhbV_vf1D"
+    );
+    e.target.reset();
   };
 
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in Touch</h2>
-      <spna className="section__subtitle">Contact Me</spna>
+      <span className="section__subtitle">Contact Me</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
@@ -34,11 +32,8 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">vk2814512@gmail.com</span>
 
-              <a
-                href="mailto:vk2814512@gmail.com.com"
-                target="_blank"
-                className="contact__button"
-              >
+              <a href="mailto:vk2814512@gmail.com.com" target= "_blank" className="contact__button" rel="noreferrer"
+>
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"> </i>
               </a>
@@ -50,7 +45,8 @@ const Contact = () => {
               <a
                 href="https://api.whatsapp.com/send?phone=+919650944142&text=Hello!"
                 target="_blank"
-                className="contact__button"
+                className="contact__button" rel="noreferrer"
+
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -61,7 +57,8 @@ const Contact = () => {
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data">Vinay Kumar</span>
               <a
-                href="https://www.linkedin.com/in/vinaykumar1801/"
+                href="https://www.linkedin.com/in/vinaykumar1801/" rel="noreferrer"
+
                 target="_blank"
                 className="contact__button"
               >

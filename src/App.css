@@ -232,15 +232,11 @@ img {
   overflow: hidden;
   border-radius: 10px;
 }
-.btn1,.btn2{
-  /* color:#5E82F4; */
-}
+
 .btn3,.btn4{
   color: #fff;
 }
-.btn1:hover,.btn2:hover{
-  /* color: #fff; */
-}
+
 .btn3:hover,.btn4:hover{
   color:  hsl(36, 56%, 84%,0.1);
 }
