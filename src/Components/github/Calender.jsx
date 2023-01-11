@@ -28,7 +28,7 @@ const Calender = () => {
       >
         <GitHubCalender
           username="VinayKumar1801"
-          transformData={selectLastHalfYear}
+          // transformData={selectLastHalfYear}
           blockSize={20}
           fontSize={18}
           hideColorLegend
