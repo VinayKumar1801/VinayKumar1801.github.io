@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.068d8f55.css",
-    "main.js": "/static/js/main.991a8a86.js",
+    "main.js": "/static/js/main.bbe9fa09.js",
     "static/media/about.gif": "/static/media/about.a9a67bbbfd9c67158deb.gif",
     "static/media/DNA.png": "/static/media/DNA.a3dbc29d40fd2fc2d67c.png",
     "static/media/bansoi.png": "/static/media/bansoi.fbe2efd80120847ebdcc.png",
     "static/media/LOSE.png": "/static/media/LOSE.f067d3fa5bab97b0ac24.png",
     "static/media/second.png": "/static/media/second.7a465a5280e8d39487d2.png",
-    "static/media/Vinay-Kumar-Resume.pdf": "/static/media/Vinay-Kumar-Resume.84ba5b1ba3d91df7c133.pdf",
+    "static/media/Vinay-Kumar-Resume.pdf": "/static/media/Vinay-Kumar-Resume.15521c30184d0110ea2f.pdf",
     "static/media/profile.jpg": "/static/media/profile.7c7de2bc3b5526963d7f.jpg",
     "static/media/background.jpg": "/static/media/background.0e65b7332e7aa24796ed.jpg",
     "static/media/vk.png": "/static/media/vk.b7adbbe0cebced449b36.png",
     "static/media/third.jpg": "/static/media/third.deac310a3f2d9c717059.jpg",
     "index.html": "/index.html",
     "main.068d8f55.css.map": "/static/css/main.068d8f55.css.map",
-    "main.991a8a86.js.map": "/static/js/main.991a8a86.js.map"
+    "main.bbe9fa09.js.map": "/static/js/main.bbe9fa09.js.map"
   },
   "entrypoints": [
     "static/css/main.068d8f55.css",
-    "static/js/main.991a8a86.js"
+    "static/js/main.bbe9fa09.js"
   ]
 }
