@@ -31,9 +31,6 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./project.css"
-import bansoi from "../../assets/bansoi.png"
-import LOSE from "../../assets/LOSE.png";
-import DNA from "../../assets/DNA.png"
 import HUB from "../../assets/hub.jpg"
 import TEMP from "../../assets/temp.jpg"
 import SHOP from "../../assets/shop.jpg"
