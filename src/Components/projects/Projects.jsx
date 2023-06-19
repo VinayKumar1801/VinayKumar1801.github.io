@@ -54,7 +54,7 @@ const Projects = () => {
           ["bx bxl-react", "#84e3e5"],
           ["bx bxl-mongodb", "rgb(60, 135, 58)"],
           ["bx bxl-nodejs", "rgb(60, 135, 58)"],
-          ["bx bxl-expressjs", "#84e3e5"],
+          // ["bx bxl-expressjs", "#84e3e5"],
           ["bx bxl-redux", "#84e3e5"],
         ],
         link: "https://sophisticated-legs-486.netlify.app/",
