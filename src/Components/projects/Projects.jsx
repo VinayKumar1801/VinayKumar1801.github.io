@@ -102,7 +102,6 @@ const Projects = () => {
         techs: [
           ["bx bxl-html5", "#f1a118"],
           ["bx bxl-css3", "#4e95e7"],
-          // ["bx bxl-javascript", "#f7df1a"],
           ["bx bxl-typescript", "#4e95e7"],
           ["bx bxl-react", "#84e3e5"],
         ],
