@@ -1,5 +1,5 @@
 
-import { Box, useColorMode } from "@chakra-ui/react";
+import { useColorMode } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import { useState } from "react";
 import VK from '../../assets/vk.png'
