@@ -34,55 +34,82 @@ import "./project.css"
 import bansoi from "../../assets/bansoi.png"
 import LOSE from "../../assets/LOSE.png";
 import DNA from "../../assets/DNA.png"
+import HUB from "../../assets/hub.jpg"
+import TEMP from "../../assets/temp.jpg"
+import SHOP from "../../assets/shop.jpg"
+import FRESHLY from "../../assets/freshly.jpg"
 
 const Projects = () => {
 
     const projects = [
       {
         id: 1,
-        heading: "BANSOI WEBSITE CLONE",
+        heading: "Freshly Wwbsite Clone",
         description:
-          "Bonsai is a freelancing management app. It offers freelance proposals and contracts.",
+          "Freshly is a weekly subscription that delivers fresh meals. Created Carts, Products, Users, Admin API ( Back-End ). Except Payment Page Completed All Pages ( Front-End ). It was a collaborative project.",
+        techs: [
+          ["bx bxl-html5", "#f1a118"],
+          ["bx bxl-css3", "#4e95e7"],
+          ["bx bxl-javascript", "#f7df1a"],
+          ["bx bxl-react", "#84e3e5"],
+          ["bx bxl-mongodb", "rgb(60, 135, 58)"],
+          ["bx bxl-nodejs", "rgb(60, 135, 58)"],
+          ["bx bxl-expressjs", "#84e3e5"],
+          ["bx bxl-redux", "#84e3e5"],
+        ],
+        link: "https://sophisticated-legs-486.netlify.app/",
+        github: "https://github.com/Dhamisir/Freshly-Website-Clone",
+        order: ["1", "2"],
+        img: FRESHLY,
+      },
+      {
+        id: 2,
+        heading: "Entertainment Hub",
+        description:
+          "Website contains the most recent movies, TV series, as well as a search engine where you can locate your favorite movies, TV shows, as well as watch trailers on YouTube.",
         techs: [
           ["bx bxl-html5", "#f1a118"],
           ["bx bxl-css3", "#4e95e7"],
           ["bx bxl-javascript", "#f7df1a"],
           ["bx bxl-react", "#84e3e5"],
         ],
-        link: "https://the-awesome-vinaykumar1801-site.netlify.app/",
-        github: "https://github.com/VinayKumar1801/paltry-rain-9292",
-        order: ["1", "2"],
-        img: bansoi,
-      },
-      {
-        id: 2,
-        heading: "LOSE IT! WEBSITE CLONE",
-        description:
-          "Lose It! is a calorie counter and food diary diet app that helps you stick to your diet and achieve weight loss that fits!",
-        techs: [
-          ["bx bxl-html5", "#f1a118"],
-          ["bx bxl-css3", "#4e95e7"],
-          ["bx bxl-javascript", "#f7df1a"],
-        ],
-        link: "https://brilliant-moxie-01b056.netlify.app/landing%20page2.2/landing.html",
-        github: "https://github.com/ranjanpalai69/malicious-thrill-8470",
+        link: "https://melodious-bublanina-1fa662.netlify.app/",
+        github: "https://github.com/VinayKumar1801/entertainment-hub",
         order: ["2", "1"],
-        img: LOSE,
+        img: HUB,
       },
       {
         id: 3,
-        heading: "DNA NEWS WEBSITE CLONE",
+        heading: "Weather App",
         description:
-          "Dna Latest breaking news, pictures, photos and Video News.",
+          "Stay on top of the weather with our easy-to-use website. Get real-time updates, hourly and 5-day forecasts, and severe weather alerts for your location. View radar maps and track storms. Plan your day or week with confidence using our accurate weather information.",
         techs: [
           ["bx bxl-html5", "#f1a118"],
           ["bx bxl-css3", "#4e95e7"],
           ["bx bxl-javascript", "#f7df1a"],
+          ["bx bxl-react", "#84e3e5"],
         ],
-        link: "https://stellular-meerkat-5bd6df.netlify.app/home.html",
-        github: "https://github.com/VinayKumar1801/expert-iron-7655",
+        link: "https://gentle-bubblegum-4e2398.netlify.app/",
+        github: "https://github.com/VinayKumar1801/weather-app",
         order: ["1", "2"],
-        img: DNA,
+        img: TEMP,
+      },
+      {
+        id: 4,
+        heading: "Shopping Cart",
+        description:
+          "Shopping Cart with TypeScript, add items, remove items from the cart and check the total amount of cart.",
+        techs: [
+          ["bx bxl-html5", "#f1a118"],
+          ["bx bxl-css3", "#4e95e7"],
+          // ["bx bxl-javascript", "#f7df1a"],
+          ["bx bxl-typescript", "#4e95e7"],
+          ["bx bxl-react", "#84e3e5"],
+        ],
+        link: "https://remarkable-fenglisu-0ae63b.netlify.app/store",
+        github: "https://github.com/VinayKumar1801/typescript_project",
+        order: ["2", "1"],
+        img: SHOP,
       },
     ];
 
