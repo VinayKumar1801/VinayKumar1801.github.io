@@ -6,7 +6,7 @@ const Stats = () => {
     <Box textAlign={"center"} w={"75%"} m={"auto"}>
       <h2 className="section__title">My Statistics</h2>
       <Box m={"auto"} w={"full"} mt="2rem">
-        <Link href="https://github.com/isky27" isExternal>
+        <Link href="https://github.com/vinaykumar1801" isExternal>
           <Image
             m={"auto"}
             w={{ lg: "60%", md: "70%", sm: "90%" }}

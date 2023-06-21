@@ -11,6 +11,7 @@ import Github from "./Components/github/Github"
 import Contact from './Components/contact/Contact';
 import Footer from './Components/footer/Footer';
 import ScrollUp from './Components/scrollup/ScrollUp';
+import Experience from './Components/experience/Experience';
 function App() {
   const [loading, setLoading] = useState(true);
   const spinner = document.getElementById("spinner");
@@ -30,6 +31,7 @@ function App() {
         <main className='main'>
           <Home />
           <About />
+          <Experience/>
           <Skills />
           <Projects />
           <Github />

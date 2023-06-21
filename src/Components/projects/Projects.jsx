@@ -23,7 +23,7 @@ const Projects = () => {
     const projects = [
       {
         id: 1,
-        heading: "Freshly Wwbsite Clone",
+        heading: "Freshly Website Clone",
         description:
           "Freshly is a weekly subscription that delivers fresh meals. Created Carts, Products, Users, Admin API ( Back-End ). Except Payment Page Completed All Pages ( Front-End ). It was a collaborative project.",
         techs: [

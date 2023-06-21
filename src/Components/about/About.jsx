@@ -13,12 +13,12 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            I'm a Full Stack Web Developer building the Front-end and Back-end
-            of Websites and Web Applications that leads to the success of the
-            overall product. Check out some of my work in the Projects section.
-            Feel free to Connect or Follow me on my Linkedin where I post useful
-            content related to Web Development and Programming I'm open to Job
-            opportunities where I can contribute, learn and grow. If you have a
+            A results-driven Full-Stack Web Developer with 3 months of
+            experience. Proficient in HTML, CSS, JavaScript, React, and MongoDB
+            for building dynamic and scalable applications. Skilled in Node.js
+            and Express for efficient data management. Strong problem-solving
+            abilities and a detail-oriented approach. Stay up-to-date with
+            emerging technologies and deliver high-quality code. If you have a
             good opportunity that matches my skills and experience then don't
             hesitate to contact me.
           </p>
